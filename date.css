@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+body{
+ width: 90%;
+    margin: 0 auto;
+}
+h1{
+    font-size:22px; 
+    font-weight: normal;
+}
+h2{
+    font-size:19px; 
+    font-weight: normal; 
+    font-size:20px;
+    
+    margin-bottom: 0;
+}
+table{
+   
+}
+a {
+    text-decoration: none;
+}
+td{
+    padding: 0 10px;
+    text-align: center;
+}
+.apply_select_place{
+    
+}
