@@ -43,10 +43,14 @@ document.getElementById('change').onclick = function(){
 }*/
 
  //ナビ部分の単語入れ替え
+const wordsOfApple = ['Apple','사과','苹果'];
+const wordsOfOrange = ['Orange','귤','橙'];
+const wordsOfBanana = ['Banana','바나나','香蕉'];
 
 const hoverLang1 = document.getElementById('hover_lang1');
 hoverLang1.onmouseover = function(){  /*mouseover*/ 
-   hoverLang1.textContent = 'apple';
+    let num1 = Math.floor(Math.random() * 3);
+    hoverLang1.textContent = wordsOfApple[num1];
 }
 
 hoverLang1.onmouseleave = function(){
@@ -55,18 +59,20 @@ hoverLang1.textContent = 'リンゴ';
 
 const hoverLang2 = document.getElementById('hover_lang2');
 hoverLang2.onmouseover = function(){
-    hoverLang2.textContent = 'orange';
+    let num2 = Math.floor(Math.random() * 3);
+    hoverLang2.textContent = wordsOfOrange[num2];
 }
 
-hoverLang2.onmouseleave = function(event){
+hoverLang2.onmouseleave = function(){
     hoverLang2.textContent = 'みかん';
 }
 
 const hoverLang3 = document.getElementById('hover_lang3');
 hoverLang3.onmouseover = function(){
-    hoverLang3.textContent = 'banana';
+    let num3 = Math.floor(Math.random() * 3);
+    hoverLang3.textContent = wordsOfBanana[num3];
 }
 
-hoverLang3.onmouseleave = function(event){
+hoverLang3.onmouseleave = function(){
     hoverLang3.textContent = 'バナナ';
 }
