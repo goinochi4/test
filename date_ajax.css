@@ -1,0 +1,63 @@
+@charset 'UTF-8';
+body{
+ width: 90%;
+    margin: 0 auto;
+}
+/* タイトル　*/
+h1{
+    font-size:22px; 
+    font-weight: normal;
+}
+h2{
+    font-size:19px; 
+    font-weight: normal; 
+    font-size:20px;
+    margin-bottom: 0;
+}
+
+.apply_place_list {
+     overflow: hidden;
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+}
+.apply_place_list h2{
+     margin: 0 0 1em 0;
+     font-size:  18px;
+     text-align: center;
+ }
+.place{ /*li要素のクラス*/
+     margin: 10px 10px 10px 0;
+     border: 1px solid #23628f;
+     padding: 4px;
+     width:25%;
+  }
+.date{
+     text-align: center;
+     margin-top: 0;
+}
+.check {
+      margin: 0;
+      padding: 8px;
+      font-size: 12px;
+      color: #fff;
+      background-color: #23628f;
+      text-align: center;
+      cursor: pointer;
+ }
+/*予約可能期日かどうか、また空席があるかどうかを見分けるための背景色*/            
+.red{
+      background-color: #e33a6d;
+  }
+.yellow{
+    background-color: yellow;
+}
+ .green{
+     background-color: #7bc52e;
+}
+.gray{
+    background-color: gray;
+}
+a {
+    text-decoration: none;
+}
