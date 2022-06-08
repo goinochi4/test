@@ -1,0 +1,11 @@
+[
+  {"id":"sapporo","resav_status":"4"},
+  {"id":"sendai","resav_status":"4"}, 
+  {"id":"tokyo","resav_status":"1"},
+  {"id":"nagoya","resav_status":"3"},
+  {"id":"osaka","resav_status":"0"},
+  {"id":"hiroshima","resav_status":"0"},
+  {"id":"fukuoka","resav_status":"0"},
+  {"id":"naha","resav_status":"0"},
+  {"id":"kyoto","resav_status":"0"}  
+]
